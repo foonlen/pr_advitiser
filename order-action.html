@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order Action</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Page description"><!-- Twitter Card data-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="Page description less than 200 characters">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg"><!-- Open Graph data-->
+    <meta property="og:title" content="Title Here">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.example.com/">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name, i.e. Moz">
+    <meta property="fb:admins" content="Facebook numeric ID">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&amp;display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" media="all" href="css/app.css"><!-- favicon-->
+    <link rel="stylesheet" media="all" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+  </head>
+  <body>
+    <!-- page-->
+    <div class="page">
+      <!-- sidebar-->
+      <div class="sidebar js-sidebar">
+        <div class="sidebar__nav">
+          <!-- nav-->
+          <nav class="nav js-nav"><a class="nav__link nav__link_head" href="/">
+              <div class="nav__preview"><img class="nav__pic" src="img/logo.svg" alt="Logo"></div>
+              <div class="nav__title"><img class="nav__pic" src="img/betaCRM.svg" alt="betaCRM"></div>
+            </a>
+            <div class="nav__list">
+              <!-- mobile primary menu-->
+              <div class="nav__primary js-nav-primary">
+                <div class="nav__group"><a class="nav__link active" href="#" title="Dashboard">
+                    <div class="nav__preview"><i class="la la-tachometer-alt "></i></div>
+                    <div class="nav__title">Dashboard</div>
+                  </a><a class="nav__link" href="#" title="Projects">
+                    <div class="nav__preview"><i class="la la-toolbox "></i></div>
+                    <div class="nav__title">My Order</div>
+                  </a><a class="nav__link" href="#" title="Tasks">
+                    <div class="nav__preview"><i class="la la-clipboard-check "></i></div>
+                    <div class="nav__title">Chat</div>
+                  </a><a class="nav__link" href="#" title="Kanban">
+                    <div class="nav__preview"><i class="la la-images "></i></div>
+                    <div class="nav__title">Advertiser List</div>
+                  </a>
+                  <a class="nav__link" href="#" title="Calendar">
+                    <div class="nav__preview"><i class="la la-calendar-week "></i></div>
+                    <div class="nav__title">Publisher List</div>
+                  </a><a class="nav__link nav__link_menu js-nav-link-menu" href="#">
+                    <div class="nav__preview"><i class="la la-bars "></i></div>
+                    <div class="nav__title">Profile</div>
+                  </a></div>
+              </div><!-- mobile secondary menu-->
+              <div class="nav__secondary js-nav-secondary">
+                <div class="nav__group"><a class="nav__link" href="#" title="Contacts">
+                    <div class="nav__preview"><i class="la la-user-lock "></i></div>
+                    <div class="nav__title">Contacts</div>
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        
+      </div><!-- container-->
+      <div class="container js-container">
+        <div class="container__head">
+          <!-- <button class="container__action container__action_menu action js-container-toggle"><i class="la la-bars "></i></button> -->
+          <div class="container__title title title_sm"><a href="#"><i class="la la-arrow-left"></i> Back</a></div><!-- search-->
+          <div class="container__search search js-search">
+            <button class="search__action action js-search-open custom_action"><i class="la la-bell "></i></button>
+            
+          </div><!-- new-->
+          <div class="container__new new js-new">
+            <button class="new__action action js-new-open custom_search__action"><img src="img/user-1.jpg" width="20" style="border-radius:50%; margin-right:10px"><span class="userprofilename">Evan Yates</span><i class="la la-angle-down" style="margin-left:10px"></i></button>
+            <div class="new__dropdown js-new-dropdown"><a class="new__item" href="profile.html">
+                <div class="new__icon"><i class="la la-toolbox "></i></div>
+                <div class="new__title">Profile</div>
+              </a><a class="new__item" href="wallet.html">
+                <div class="new__icon"><i class="la la-clipboard-check "></i></div>
+                <div class="new__title">Wallet</div>
+              </a><a class="new__item" href="#">
+                <div class="new__icon"><i class="la la-user-lock "></i></div>
+                <div class="new__title">Updates</div>
+              </a><a class="new__item" href="index.html">
+                <div class="new__icon"><i class="la la-calendar-week "></i></div>
+                <div class="new__title">Logout</div>
+              </a></div>
+            <div class="new__backdrop backdrop js-new-backdrop"></div>
+          </div>
+        </div>
+        <div class="container__body">
+         
+          <div class="layout">
+            <div class="maintitle">
+              <div class="container__head">
+            
+                <div class="container__title title title_md">Orders Details</div><!-- search-->
+                <div class="container__search search js-search">
+                <a id="myBtn" href="#"> <strong><i class="la la-angle-left "></i> All orders</strong></a>
+                  
+                </div><!-- new-->
+                
+               </div>
+               <div class="content__body">
+                <div class="content__content">When I first got into the online advertising business,  my website into the top search engine rankings.</div>
+              </div>
+            </div>
+            <div class="layout__row orderdetais_page">
+              
+              <!-- panel-->
+              <div class="layout__panel layout__panel_x2">
+              
+                <div class="panel panellayouts">
+             
+                <div class="panel__body panel__body_bg overviewitems">
+                  <div class="overview__item overview_details">
+                    <div class="overview__row overview_enable">
+                      <div class="overview__col">
+                        
+                        
+                      <div class="overview__label"><div class="data__online online"></div></div></div>
+                      
+                    <div class="overview__col">
+                        <div class="overview__label"><div class="data__online online"></div></div>
+                    </div>
+                      <div class="overview__col">
+                        <div class="overview__label"><div class="data__online online"></div></div>
+                      </div>
+                        <div class="overview__col">
+                          <div class="overview__label"><div class="data__online online"></div></div>
+                    </div>
+                    <div class="overview__col">
+                      <div class="overview__label"><div class="data__online online"></div></div>
+                </div>
+                  </div>
+                    <div class="overview__progress progress">
+                      <div class="progress__value bg-green-raw" style="width: 60%"></div>
+                    </div>
+
+                    <div class="overview__row overviewdatas">
+                      <div class="overview__col">
+                        
+                        
+                      <div class="overview__label">Create View</div></div>
+                      
+                    <div class="overview__col">
+                        <div class="overview__label">Discussion & Approved</div>
+                    </div>
+                      <div class="overview__col">
+                        <div class="overview__label">Hire Pepole</div>
+                      </div>
+                        <div class="overview__col">
+                      <div class="overview__label">Work Process</div>
+                    </div>
+                    <div class="overview__col">
+                      <div class="overview__label">Completed</div>
+                    </div>
+                  </div>
+                     <div class="overview__row overviewicons" style="display: none;">
+                      <div class="overview__col custom_action">
+                        
+                        
+                      <div class="overview__label"><i class="la la-user-edit "></i></div></div>
+                      
+                    <div class="overview__col custom_action">
+                        <div class="overview__label"><i class="la la-clipboard-check "></i></div>
+                    </div>
+                      <div class="overview__col custom_action">
+                        <div class="overview__label"><i class="la la-user-clock "></i></div>
+                      </div>
+                        <div class="overview__col custom_action">
+                      <div class="overview__label"><i class="la la-chart-area "></i></div>
+                    </div>
+                    <div class="overview__col custom_action">
+                      <div class="overview__label"><i class="la la-check "></i></div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="data_list work_asigned_tbl">
+                    <div class="data__container">
+                      
+                      <div class="data__body">
+                    <div class="data__item">
+                          <div class="data__row">
+                            <div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">Contract wallet</div>
+                                  <div class="data__content"><strong>03</strong></div>
+                               
+                                </div>
+                             
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                          <div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">PR Release</div>
+                                  <div class="data__content"><strong>01</strong></div>
+                               
+                                </div>
+                             
+                            </div><div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">SEO analytics</div>
+                                  <div class="data__content"><strong>01</strong></div>
+                               
+                                </div>
+                             
+                            </div><div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">On Going Task</div>
+                                  <div class="data__content"><strong>06</strong></div>
+                               
+                                </div>
+                             
+                            </div><div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">Pending task</div>
+                                  <div class="data__content"><strong>04</strong></div>
+                               
+                                </div>
+                             
+                            </div><div class="data__cell ">
+                             
+                                
+                                <div class="data__wrap">
+                                       <div class="data__label">Completed task</div>
+                                  <div class="data__content"><strong>08</strong></div>
+                               
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+                </div>
+                </div>
+
+                <div class="singleorder_tbl">
+                <div class="panel__head panel__head_line panelheadline">
+                  <div class="panel__group">
+                    <div class="panel__title title">Publisher List</div>
+                  </div>
+                  <div class="panel__group action-group"><button class="action custom_action"><i class="la la-filter"></i></button></div>
+                </div>
+                <div class="content__body">
+                  <div class="content__content">When I first got into the online advertising business,  my website into the top search engine rankings.</div>
+                </div>
+                
+
+
+                 
+
+
+                <!-----Table 3-->
+
+
+                <div class="data data_list" >
+                  <div class="data__container">
+                    
+                    <div class="data__body">
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_md">
+                            <div class="data__main">
+                              <div class="data__preview"><img class="data__pic" src="img/user-1.jpg" alt="User">
+                               
+                              </div>
+                              <div class="data__wrap">
+                                <div class="data__label">Content writer</div>
+                                <div class="data__content"><strong>Bryan Boyd</strong></div>
+                              
+                              </div>
+                            </div>
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Services</div>
+                            <div class="data__content"><strong>Blog Review</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Published website link</div>
+                            <div class="data__content"><strong>Gosearch.com</strong></div>
+                         
+                          </div>
+                          <div class="data__cell data__cell_sm mobile-hide">
+                            <div class="data__label">Views/ Followrs</div>
+                            <div class="data__content"><strong>10M/ 20 M</strong></div>
+                            <div class="data__label">Price</div>
+                            <div class="data__content"><strong>$150</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+
+                            <div class="dropdown">
+                              <div style='display:flex;'><button onclick="myFunction()" class="dropbtn">Action <i class='la la-angle-down arrow_dropdown'></i></button></div>
+                              <div id="myDropdown" class="dropdown-content">
+                                <a href="#home" class='btn' style='background: #29bb29;'>Select</a>
+                                <a href="#about" class="btn" style='background: #f50b0b;'>Reject</a>
+                              </div>
+                            </div>
+                           
+                         <!--    <div class="panel__group action_dropdownbtn">
+                              <div class="sort js-sort">
+                                <div class="sort__head js-sort-head">
+                                
+                                  <div class="sort__label">  <a href="#"><div class="tag gray actionbtn">Action <i class="la la-angle-down "></i></div></a></div>
+                               
+                                </div>
+                                <div class="sort__dropdown js-sort-dropdown">
+                              
+                                  <div class="actionbtns">
+                                     <a href="#"><div class="tag gray selectedbtn">Select</div></a>
+                                     <a href="#"><div class="tag gray rejectbtn">Reject</div></a>
+                                  </div>
+                                  
+                                </div>
+                                <div class="sort__backdrop backdrop js-sort-backdrop"></div>
+                              </div>
+                            </div> -->
+                          </div>
+                          <div class="data__cell data__cell_action"><i class="la la-eye"></i></div>
+                        </div>
+                      </div>
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_md">
+                            <div class="data__main">
+                              <div class="data__preview"><img class="data__pic" src="img/user-2.jpg" alt="User">
+                              
+                              </div>
+                              <div class="data__wrap">
+                                <div class="data__label">Manager</div>
+                                <div class="data__content"><strong>Danny Lawson</strong></div>
+                               
+                               
+                               
+                              </div>
+                            </div>
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Services</div>
+                            <div class="data__content"><strong>Blog Review</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Published website link</div>
+                            <div class="data__content"><strong>Gosearch.com</strong></div>
+                         
+                          </div>
+                          <div class="data__cell data__cell_sm mobile-hide">
+                            <div class="data__label">Share with</div>
+                            <div class="data__content"><strong>Social Media</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <!-- tag-->
+                            <div class="tag gray selectedbtn">Selected</div>
+                          </div>
+                          <div class="data__cell data__cell_action"><i class="la la-eye"></i></div>
+                        </div>
+                      </div>
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_md">
+                            <div class="data__main">
+                              <div class="data__preview"><img class="data__pic" src="img/user-3.jpg" alt="User">
+                                
+                              </div>
+                              <div class="data__wrap">
+                                <div class="data__label">Designer</div>
+                                <div class="data__content"><strong>Eric Munoz</strong></div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Services</div>
+                            <div class="data__content"><strong>Blog Review</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Published website link</div>
+                            <div class="data__content"><strong>Gosearch.com</strong></div>
+                         
+                          </div>
+                          <div class="data__cell data__cell_sm mobile-hide">
+                            <div class="data__label">Share with</div>
+                            <div class="data__content"><strong>Social Media</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <!-- tag-->
+                            <div class="tag gray selectedbtn">Selected</div>
+                          </div>
+                          <div class="data__cell data__cell_action"><i class="la la-eye"></i></div>
+                        </div>
+                      </div>
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_md">
+                            <div class="data__main">
+                              <div class="data__preview"><img class="data__pic" src="img/user-4.jpg" alt="User">
+                               
+                              </div>
+                              <div class="data__wrap">
+                                <div class="data__label">Developer</div>
+                                <div class="data__content"><strong>Russell Roberts</strong></div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Services</div>
+                            <div class="data__content"><strong>Blog Review</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <div class="data__label">Published website link</div>
+                            <div class="data__content"><strong>Gosearch.com</strong></div>
+                         
+                          </div>
+                          <div class="data__cell data__cell_sm mobile-hide">
+                            <div class="data__label">Share with</div>
+                            <div class="data__content"><strong>Social Media</strong></div>
+                           
+                          </div>
+                          <div class="data__cell mobile-hide">
+                            <!-- tag-->
+                            <a href="#"><div class="tag gray rejectbtn">Rejected</div></a>
+                           </a>
+                          </div>
+                          <div class="data__cell data__cell_action"><i class="la la-eye"></i></div>
+                        </div>
+                      </div>
+                      
+                     
+                     
+                    </div>
+                  </div>
+                </div>
+
+
+                <!---Table over-->
+
+              </div>
+
+              </div>
+              <div class="layout__panel panel orders_secondlayout">
+               
+                <div class="panel__body panel__body_bg">
+                  <div class="overview__item order_cards">
+                    <div class="">
+                      <div class="overview__col">
+                        <div class="overview__label">Coinpedia Estimate Price</div>
+                      <div class="overview__value">800 USD</div>
+                      <div class="overview__label">
+                        <!-- <span class="paidicon"><i class="la la-check"></i></span> -->
+                        Paid</div>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="content__section">
+                    <div class="content__text">Task created on 07 Jun 2019</div>
+                    <div class="content__box">
+                      <div class="content__title title">About</div>
+                      <div class="content__body">
+                        <div class="content__content">When I first got into the online advertising business,  and generally make me rich beyond my wildest dreams.</div>
+                      </div>
+                    </div>
+                    <div class="updates__item">
+                      
+                      <div class="updates__name">Project User Id </div>
+                      <div class="updates__value">PNP126700006</div>
+                    </div>
+                    <div class="content__text"><i class="la la-calendar-week "></i> Created on 07 Jun 2019</div>
+                    <div class="info__body">
+                      <!-- tag group-->
+                      <div class="tag-group">
+                        <div class="tag gray">Designers</div>
+                        <div class="tag gray">Employees</div>
+                        <div class="tag gray">Employees</div>
+                        
+                      </div>
+                    </div>
+
+                  </div>
+                  
+                  <div class="conversation_data">
+                    <div class="widget">
+                      <div class="widget__head widget__head_line">
+                        <div class="widget__title title">Conversation</div>
+                        <!-- <a class="widget__all" href="#">View all</a> -->
+                      </div>
+                      <div class="widget__body">
+                        <!-- item-->
+                        <div class="items"><a class="items__item" href="#">
+                            <div class="items__preview"><img class="items__pic" src="img/user-2.jpg" alt="User">
+                             
+                            </div>
+                            <div class="items__wrap">
+                              <div class="items__details">
+                                <div class="items__name">Nicholas Gordon</div>
+                                <div class="items__time">10m</div>
+                              </div>
+                              <div class="items__content">Moreover the striking, brilliant and vivid colors</div>
+                            </div>
+                          </a><a class="items__item" href="#">
+                            <div class="items__preview"><img class="items__pic" src="img/user-3.jpg" alt="User">
+                              
+                            </div>
+                            <div class="items__wrap">
+                              <div class="items__details">
+                                <div class="items__name">Nina Perkins</div>
+                                <div class="items__time">1hr</div>
+                              </div>
+                              <div class="items__content">In the history of modern astronomy, there is small</div>
+                            </div>
+                          </a><a class="items__item" href="#">
+                            <div class="items__preview"><img class="items__pic" src="img/user-4.jpg" alt="User">
+                            
+                            </div>
+                            <div class="items__wrap">
+                              <div class="items__details">
+                                <div class="items__name">Daniel Holland</div>
+                                <div class="items__time">2hr</div>
+                              </div>
+                              <div class="items__content">Advertising on a budget with a monthly frequency</div>
+                            </div>
+                          </a></div>
+                      </div>
+                      <div class="report-send">
+
+                        <input type="text" name="text" placeholder="Type your message">
+                        <button class="btnsend"><i class="la la-send"></i></button>
+                     
+                     
+                    </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div><!-- modals-->
+
+    <div id="myModal" class="modal js-modal allorder_popup">
+      <div class="modal__container js-modal-container">
+        
+        <div class="modal__body">
+          <div class="close">close<i class="la la-close" style="margin-left:5px;margin-top: 2px;font-size: 13px;"></i></div>
+          <!-- content-->
+          <div class="content">
+            
+            <div class="content__container">
+              <div class="content__section">
+                <div class="content__body">
+                  <div class="content__row">
+                    <div class="content__col">
+                      <div class="content__head">
+              <div class="content__preview"><img class="members__pic" src="img/user-1.jpg" alt="User"></div>
+              <div class="content__wrap">
+                <div class="content__title title title_sm">Even Yates</div>
+                <div class="content__text">Created on 07 Jun 2019</div>
+              </div>
+            </div>
+                    </div>
+                    <div class="content__col">
+                      <div class="content__box">
+                        
+                        <div class="content__wrap">
+                          <!-- tag group-->
+                          <div class="tag-group">
+                            
+                            <div class="tag blue">Chat</div>
+                          <div class="tag blue">Select this person</div></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__section">
+                <div class="content__box">
+                  <div class="content__title title">Token Sale Youtube Video</div>
+                  <div class="content__body">
+                    <div class="content__content">When I first got into the online advertising business, I was looking for the magical combination that would put my website into the top search engine rankings, catapult me to the forefront of the minds or individuals looking to buy my product, and generally make me rich beyond my wildest dreams.</div>
+                    <div class="content__content">When I first got into the online advertising business, I was looking for the magical combination that would put my website into the top search engine rankings, catapult me to the forefront of the minds or individuals looking to buy my product, and generally make me rich beyond my wildest dreams.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="content__section">
+                <div class="content__box">
+                  <div class="content__title title">About</div>
+                  <div class="content__body">
+                    <div class="content__content">When I first got into the online advertising business, I was looking for the magical combination that would put my website into the top search engine rankings, catapult me to the forefront of the minds or individuals looking to buy my product, and generally make me rich beyond my wildest dreams.</div>
+                    <div class="tag-group">
+                            
+                      <div class="tag bg-green-raw">View More</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div><!-- reply-->
+
+            <div class="invoice">
+              <div class="">
+               
+                <div class="invoice__inner">
+                  <div class="invoice__details">
+                    <div class="invoice__title title">Platform Details</div>
+                    <div class="invoice__row invoice__row_body">
+                      <div class="invoice__col">
+                        <!-- <div class="invoice__company">WhiteOnWhite</div> -->
+                        <div class="invoice__content">
+                          <p>Platform Name</p>
+                          <p>Platform Type</p>
+                          <p>Platform</p>
+                          <p>Followers</p>
+                          <p>Services</p>
+                          
+                        </div>
+                      </div>
+                      <div class="invoice__col">
+                        <!-- <div class="invoice__company">Dropbox Inc.</div> -->
+                        <div class="invoice__content">
+                          <p><strong>Tech Sumo</strong></p>
+                          <p><strong>Social Media</strong></p>
+                          <p><strong>Youtube</strong></p>
+                          <p><strong><i class="la la-arrow-up"></i> 7.18M</strong></p>
+                          <p><strong>Adverstiment, Promotion</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <table class="invoice__table table">
+                    <thead>
+                      <tr class="modal_sub_title_block" style="margin-top:20px">
+                        <th># No</th>
+                        <th>Services</th>
+                        <th>Publish Website Link</th>
+                        <th>Also Share With</th>
+                        <th class="text-right">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>#1 </td>
+                        <td>BLog Review</td>
+                        <td>$lavasoft.geosearchresult.com</td>
+                        <td>Social Media</td>
+                        <td class="text-right">500 USD</td>
+                      </tr>
+                      <tr>
+                        <td>#2 </td>
+                        <td>BLog Review</td>
+                        <td>$lavasoft.geosearchresult.com</td>
+                        <td>Social Media</td>
+                        <td class="text-right">500 USD</td>
+                      </tr>
+                      <tr>
+                        <td>#3 </td>
+                        <td>BLog Review</td>
+                        <td>$lavasoft.geosearchresult.com</td>
+                        <td>Social Media</td>
+                        <td class="text-right">500 USD</td>
+                      </tr>
+                      <tr>
+                        <td>#4 </td>
+                        <td>BLog Review</td>
+                        <td>$lavasoft.geosearchresult.com</td>
+                        <td>Social Media</td>
+                        <td class="text-right">500 USD</td>
+                      </tr>
+                      <tr>
+                        <td>#5 </td>
+                        <td>BLog Review</td>
+                        <td>$lavasoft.geosearchresult.com</td>
+                        <td>Social Media</td>
+                        <td class="text-right">500 USD</td>
+                      </tr>
+                      
+                      
+                  </tbody></table>
+                </div>
+              </div><!-- chat-->
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+
+    <script>
+  
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+ 
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+
+    <!-- scripts-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/datepicker.min.js"></script>
+    <script src="js/lib/datepicker.en.js"></script>
+    <script src="js/lib/select2.min.js"></script>
+    <script src="js/lib/wNumb.min.js"></script>
+    <script src="js/lib/nouislider.min.js"></script>
+    <script src="js/lib/apexcharts.min.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

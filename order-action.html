@@ -64,7 +64,7 @@
                     <div class="nav__preview"><i class="la la-calendar-week "></i></div>
                     <div class="nav__title">Publisher List</div>
                   </a><a class="nav__link nav__link_menu js-nav-link-menu" href="profile.html">
-                    <div class="nav__preview"><i class="la la-bars "></i></div>
+                    <div class="nav__preview"><i class="la la-user"></i></div>
                     <div class="nav__title">Profile</div>
                   </a></div>
               </div><!-- mobile secondary menu-->
@@ -84,24 +84,24 @@
       <div class="container js-container">
         <div class="container__head">
           <!-- <button class="container__action container__action_menu action js-container-toggle"><i class="la la-bars "></i></button> -->
-          <div class="container__title title title_sm"><a href="dashboard.html"><i class="la la-arrow-left"></i> Back</a></div><!-- search-->
+          <div class="container__title title title_sm" style='font-weight: 100'><a href="dashboard.html"><i class="la la-arrow-left"></i> Back</a></div><!-- search-->
           <div class="container__search search js-search">
             <button class="search__action action js-search-open custom_action"><i class="la la-bell "></i></button>
             
           </div><!-- new-->
           <div class="container__new new js-new">
             <button class="new__action action js-new-open custom_search__action"><img src="img/user-1.jpg" width="20" style="border-radius:50%; margin-right:10px"><span class="userprofilename">Evan Yates</span><i class="la la-angle-down" style="margin-left:10px"></i></button>
-            <div class="new__dropdown js-new-dropdown"><a class="new__item" href="profile.html">
-                <div class="new__icon"><i class="la la-toolbox "></i></div>
+            <div class="new__dropdown js-new-dropdown custom_drop_down"><a class="new__item" href="profile.html">
+                <div class="new__icon"><i class="la la-user"></i></div>
                 <div class="new__title">Profile</div>
               </a><a class="new__item" href="">
-                <div class="new__icon"><i class="la la-clipboard-check "></i></div>
+                <div class="new__icon"><img src='img/wallet.png' /></div>
                 <div class="new__title">Wallet</div>
               </a><a class="new__item" href="#">
                 <div class="new__icon"><i class="la la-user-lock "></i></div>
                 <div class="new__title">Updates</div>
               </a><a class="new__item" href="index.html">
-                <div class="new__icon"><i class="la la-calendar-week "></i></div>
+                <div class="new__icon"><i class="la la-arrow-right"></i></div>
                 <div class="new__title">Logout</div>
               </a></div>
             <div class="new__backdrop backdrop js-new-backdrop"></div>
@@ -677,7 +677,7 @@
                     </div>
                   </div>
                   
-                  <table class="invoice__table table">
+                  <!-- <table class="invoice__table table">
                     <thead>
                       <tr class="modal_sub_title_block" style="margin-top:20px">
                         <th># No</th>
@@ -725,7 +725,101 @@
                       </tr>
                       
                       
-                  </tbody></table>
+                  </tbody></table> -->
+                  <div class="tableoverflow">
+                    <div class="grid">
+                      <div class="grid__table">
+                        <div class="grid__head orders_grid_head">
+                          <div class="grid__cell"># No</div>
+                          <div class="grid__cell">Services</div>
+                          <div class="grid__cell">Publish Website Link</div>
+                          <div class="grid__cell">Also Share With</div>
+                          <div class="grid__cell">Price</div>
+                        </div>
+                        <div class="grid__body">
+                          <div class="grid__row">
+                            <div class="grid__cell">
+                              <div class="grid__text">#1</div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text-right"><strong>BLog Review</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text">03</div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>Social Media</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>500 USD</strong></div>
+                            </div>
+                            
+                          </div>  
+                          <div class="grid__row">
+                            <div class="grid__cell">
+                              <div class="grid__text">#1</div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text-right"><strong>BLog Review</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text">03</div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>Social Media</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>500 USD</strong></div>
+                            </div>
+                            
+                          </div>  
+                          <div class="grid__row">
+                            <div class="grid__cell">
+                              <div class="grid__text">#1</div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text-right"><strong>BLog Review</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text">03</div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>Social Media</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>500 USD</strong></div>
+                            </div>
+                            
+                          </div> 
+                          <div class="grid__row">
+                            <div class="grid__cell">
+                              <div class="grid__text">#1</div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text-right"><strong>BLog Review</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <div class="grid__text">03</div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>Social Media</strong></div>
+                            </div>
+                            <div class="grid__cell">
+                              <!-- tag-->
+                              <div class="grid__text-right"><strong>500 USD</strong></div>
+                            </div>
+                            
+                          </div>   
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div><!-- chat-->
               

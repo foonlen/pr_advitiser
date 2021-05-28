@@ -23,7 +23,8 @@
     <meta property="fb:admins" content="Facebook numeric ID">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
     
     <!-- favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -53,25 +54,25 @@
                                         <div class="nav__preview"><i class="la la-tachometer-alt "></i></div>
                                         <div class="nav__title">Dashboard</div>
                                     </a>
-                                    <a class="nav__link" href="orders-waiting.html" title="Projects">
+                                    <a class="nav__link" href="advertiserOrders.html" title="Projects">
                                         <div class="nav__preview"><i class="la la-toolbox "></i></div>
                                         <div class="nav__title">My Orders</div>
                                     </a>
-                                    <a class="nav__link" href="" title="Tasks">
-                                        <div class="nav__preview"><i class="la la-clipboard-check "></i></div>
-                                        <div class="nav__title">Platform</div>
+                                    <a class="nav__link" href="profile.html" title="Tasks">
+                                        <div class="nav__preview"><i class="la la-user"></i></div>
+                                        <div class="nav__title">Profile</div>
                                     </a>
-                                    <a class="nav__link" href="" title="Kanban">
+                                    <!-- <a class="nav__link" href="" title="Kanban">
                                         <div class="nav__preview"><img src='img/wallet.png' width='19px'></div>
                                         <div class="nav__title">Wallet</div>
-                                    </a>
+                                    </a> -->
                                     <!-- <a class="nav__link" href="single-order.html" title="Calendar">
                                         <div class="nav__preview"><i class="la la-calendar-week "></i></div>
                                         <div class="nav__title">Reports</div>
                                     </a> -->
-                                    <a class="nav__link nav__link_menu js-nav-link-menu" href="#">
+                                    <!-- <a class="nav__link nav__link_menu js-nav-link-menu" href="#">
                                         <div class="nav__preview"><i class="la la-clipboard-check"></i></div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                     </nav>
@@ -90,23 +91,38 @@
                     <div class="new__dropdown js-new-dropdown custom_drop_down"><a class="new__item" href="profile.html">
                         <div class="new__icon"><i class="la la-user"></i></div>
                         <div class="new__title">Profile</div>
-                    </a><a class="new__item" href="#">
+                    </a>
+                    <!-- <a class="new__item" href="#">
                         <div class="new__icon"><img src='img/wallet.png' width='19px'></div>
                         <div class="new__title">Wallet</div>
-                    </a><a class="new__item" href="#">
+                    </a>
+                    <a class="new__item" href="#">
                         <div class="new__icon"><i class="la la-user-lock "></i></div>
                         <div class="new__title">Updates</div>
-                    </a><a class="new__item" href="index.html">
+                    </a> -->
+                    <a class="new__item" href="index.html">
                         <div class="new__icon"><i class="la la-arrow-right"></i></div>
                         <div class="new__title">Logout</div>
-                    </a></div>
+                    </a>
+                </div>
                     <div class="new__backdrop backdrop js-new-backdrop"></div>
                 </div>
             </div>
         <a href='profile.html' class='complete_profile_link'>Complete your profile</a>
+
+
+        <div class="container__head">
+            
+            <div class="container__title title title_md"></div><!-- search-->
+            <div class="container__search search js-search">
+            <a href="addFunds.html"><div class="btn addFundsDashboard"><i class="la la-plus" style='margin-right:10px'></i>Add Fund</div></a>
+                
+            </div>
+        
+        </div>
         
         <div class="container__body">
-            <div class='btn addFundsDashboard'><a href='addFunds.html' style='color:white'><i class='la la-plus' style='margin-right:10px'></i>Add Funds</a> </div>
+            <!-- <div class='btn addFundsDashboard'><a href='addFunds.html' style='color:white'><i class='la la-plus' style='margin-right:10px'></i>Add Funds</a> </div> -->
             <div class="layout dashboard_banner">
                 <div class="layout__row ">
                   <!-- panel-->
@@ -201,7 +217,7 @@
                                                         <div class="data__content"><strong>$ 150 to $ 500</strong></div>
                                                     </div>
                                                     <div class="data__cell data__cell_lg tab_hide mobile-hide">
-                                                        <div class="tag green" style='min-width: 214px;background:#00d097;' ><a href='order-completed.html' style='color:white'>Completed</a></div>
+                                                        <div class="tag green" style='min-width: 214px;height:36px' ><a href='order-completed.html' style='color:#7CE7AC'>Completed</a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -376,23 +392,23 @@
                     </div>
                     
                 </div>
-                
+                <div class='dashboard_orders_status'>
+                    <div class="dashboard_orders_status_one">
+                        <div class="items__online online"></div>
+                        <p>Completed</p>
+                    </div>
+                    <div class="dashboard_orders_status_two">
+                        <div class="items__online online  bg-yellow-raw"></div>
+                        <p>Pending Approved</p>
+                    </div>
+                    <div class="dashboard_orders_status_three">
+                        <div class="items__online online  bg-red-raw"></div>
+                        <p>Not assigned</p>
+                    </div>
+                    
+                </div>
             </div>
-            <div class='dashboard_orders_status'>
-                <div class="dashboard_orders_status_one">
-                    <div class="items__online online"></div>
-                    <p>Completed</p>
-                </div>
-                <div class="dashboard_orders_status_two">
-                    <div class="items__online online  bg-yellow-raw"></div>
-                    <p>Pending Approved</p>
-                </div>
-                <div class="dashboard_orders_status_three">
-                    <div class="items__online online  bg-red-raw"></div>
-                    <p>Not assigned</p>
-                </div>
-                
-            </div>
+            
         </div>
     </div>
 

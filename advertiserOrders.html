@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Orders</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="CoinPedia Publisher Panel is a work management tool for Crypto , Fintech and Social media by Coinpeda.org . The tool helps publishers and influencers to find business opportunities for sponsored posts and freelancing work and also manage wallet and orders."><!-- Twitter Card data-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="CoinPedia Publisher Panel is a work management tool for Crypto , Fintech and Social media by Coinpeda.org . The tool helps publishers and influencers to find business opportunities for sponsored posts and freelancing work and also manage wallet and orders.">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg"><!-- Open Graph data-->
+    <meta property="og:title" content="Title Here">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.example.com/">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:description" content="CoinPedia Publisher Panel is a work management tool for Crypto , Fintech and Social media by Coinpeda.org . The tool helps publishers and influencers to find business opportunities for sponsored posts and freelancing work and also manage wallet and orders.">
+    <meta property="og:site_name" content="Site Name, i.e. Moz">
+    <meta property="fb:admins" content="Facebook numeric ID">
+    <meta name="keywords" content="Coinpedia Publisher Login, Coinpedia, coinpedia PR Agency, list as influencers, Influencer marketing">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="stylesheet" media="all" href="css/app.css">
+  </head>
+  <body>
+    <!-- page-->
+    <div class="page">
+      <!-- sidebar-->
+      <div class="sidebar js-sidebar">
+        <div class="sidebar__nav">
+          <!-- nav-->
+          <nav class="nav js-nav"><a class="nav__link nav__link_head" href="/">
+              <div class="nav__preview"><img class="nav__pic" src="img/logo.svg" alt="Logo"></div>
+              <div class="nav__title"><img class="nav__pic" src="img/betaCRM.svg" alt="betaCRM"></div>
+            </a>
+            <div class="nav__list">
+              <!-- mobile primary menu-->
+              <div class="nav__primary js-nav-primary">
+                <div class="nav__group"><a class="nav__link active" href="dashboard.html" title="Dashboard">
+                    <div class="nav__preview"><i class="la la-tachometer-alt "></i></div>
+                    <div class="nav__title">Dashboard</div>
+                  </a><a class="nav__link" href="advertiserOrders.html" title="Projects">
+                    <div class="nav__preview"><i class="la la-toolbox "></i></div>
+                    <div class="nav__title">My Orders</div>
+                  </a><a class="nav__link" href="profile.html" title="Tasks">
+                    <div class="nav__preview"><i class="la la-user"></i></div>
+                    <div class="nav__title">Profile</div>
+                  </a>
+                  <!-- <a class="nav__link" href="wallet.html" title="Kanban">
+                    <div class="nav__preview"><img src='img/wallet.png' width='19px' /></div>
+                    <div class="nav__title">Wallet</div>
+                  </a> -->
+                </div>
+              </div>
+              <!-- mobile secondary menu-->
+              
+            </div>
+          </nav>
+        </div>
+        
+      </div><!-- container-->
+      <div class="container js-container">
+        <div class="container__head">
+            <div class="container__title title title_sm" style='font-weight:100'><a href="dashboard.html"><i class="la la-arrow-left"></i> Back</a></div>
+        <!-- <div class="contain__title title title_lg"></div> -->
+          <div class="container__search search js-search"><button class="search__action action js-search-open custom_action_button"><i class="la la-search "></i></button>
+            <div class="search__dropdown js-search-dropdown">
+              <div class="search__field"><input class="search__input js-search-input" type="search" placeholder="Start typing…">
+                <div class="search__icon"><i class="la la-search "></i></div>
+              </div>
+              <div class="search__results js-search-results"><a class="search__result" href="#">
+                  <div class="search__cell">
+                    <div class="search__preview color-red"><i class="lab la-dribbble "></i></div>
+                  </div>
+                  <div class="search__cell">
+                    <div class="search__title">Dribble Redesign</div>
+                    <div class="search__text">Webdesign</div>
+                  </div>
+                  <div class="search__cell mobile-hide">
+                    <!-- tag-->
+                    <div class="search__tag tag gray">24 Feb 2019</div>
+                  </div>
+                </a><a class="search__result" href="#">
+                  <div class="search__cell">
+                    <div class="search__preview color-green"><i class="lab la-evernote "></i></div>
+                  </div>
+                  <div class="search__cell">
+                    <div class="search__title">New HTML Theme</div>
+                    <div class="search__text">Theme</div>
+                  </div>
+                  <div class="search__cell mobile-hide">
+                    <!-- tag-->
+                    <div class="search__tag tag gray">20 May 2019</div>
+                  </div>
+                </a><a class="search__result" href="#">
+                  <div class="search__cell">
+                    <div class="search__preview"><img class="search__pic" src="img/user-1.jpg" alt="User"></div>
+                  </div>
+                  <div class="search__cell">
+                    <div class="search__title">Bradley Wilkins</div>
+                    <div class="search__text">b.wilkins@gmail.com</div>
+                  </div>
+                  <div class="search__cell mobile-hide">
+                    <!-- tag-->
+                    <div class="search__tag tag gray">Designer</div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="search__backdrop backdrop js-search-backdrop"></div>
+            
+          </div><!-- new-->
+          <div class="container__new new js-new">
+            <button class="new__action action js-new-open custom_action_button"><img class='user_dropdown_img' width='20px' src='img/user-1.jpg' /><span class='evan_yates'>Evan Yates </span><i class="la la-angle-down" style='margin-left:10px'></i></button>
+            <div class="new__dropdown js-new-dropdown custom_drop_down">
+                
+                
+              <a class="new__item" href="profile.html">
+                <div class="new__icon"><i class="la la-user"></i></div>
+                <div class="new__title">Profile</div>
+              </a>
+              <!-- <a class="new__item" href="wallet.html">
+                <div class="new__icon"><img src='img/wallet.png' width='19px' /></div>
+                <div class="new__title">Wallet</div>
+              </a>
+              <a class="new__item" href="#">
+                <div class="new__icon"><i class="la la-calendar-week "></i></div>
+                <div class="new__title">Updates</div>
+              </a> -->
+              <a class="new__item" href="index.html">
+                <div class="new__icon"><i class="la la-arrow-right"></i></div>
+                <div class="new__title">Logout</div>
+              </a></div>
+            <div class="new__backdrop backdrop js-new-backdrop"></div>
+          </div>
+        </div>
+        <div class='container__title title title_lg orders_title'>My Orders</div>
+        <p class='orders_sub_header'>Manage your inprocess and completed orders.</p>
+        <div class="container__body">
+          <!-- panel-->
+          <div class="panel js-panel orders_panel" style='padding:0px 24px'>
+            <!-- <div class="panel__head panel__head_line orders_panel_head">
+              
+              <div class="panel__group btn-group btn-group_tabs orders_btn_panel">
+                <button class="btn btn_light btn_icon js-panel-btn active"></i>Orders For You</button>
+                <button class="btn btn_light btn_icon js-panel-btn"></i>Ongoing</button>
+                <button class="btn btn_light btn_icon js-panel-btn"></i>Completed Orders</button>
+                <button class="btn btn_light btn_icon js-panel-btn"></i>Pending Orders</button>
+              </div>
+              <div class="panel__group">
+                <div class="sort js-sort">
+                  
+                  <div class="sort__dropdown js-sort-dropdown">
+                    <div class="sort__title">Sort projects by</div>
+                    <div class="sort__items">
+                      <div class="sort__item"><label class="switch sort__switch js-sort-switch"><input class="switch__input" type="radio" name="sort" checked="checked" /><span class="switch__content">A-Z</span></label></div>
+                      <div class="sort__item"><label class="switch sort__switch js-sort-switch"><input class="switch__input" type="radio" name="sort" /><span class="switch__content">Budget</span></label></div>
+                      <div class="sort__item"><label class="switch sort__switch js-sort-switch"><input class="switch__input" type="radio" name="sort" /><span class="switch__content">Assigned Tasks</span></label></div>
+                      <div class="sort__item"><label class="switch sort__switch js-sort-switch"><input class="switch__input" type="radio" name="sort" /><span class="switch__content">Progress</span></label></div>
+                      <div class="sort__item"><label class="switch sort__switch js-sort-switch"><input class="switch__input" type="radio" name="sort" /><span class="switch__content">Date Created</span></label></div>
+                    </div>
+                    <div class="sort__foot"><button class="sort__btn btn btn_light js-sort-apply">Apply</button></div>
+                  </div>
+                  <div class="sort__backdrop backdrop js-sort-backdrop"></div>
+                </div>
+              </div>
+            </div> -->
+            <div class="panel__body">
+              <div class="panel__tab js-panel-tab" style="display: block">
+                <!-- data-->
+                <div class="data data_list">
+                  <div class="data__container" style='min-width: 0px;'>
+                    
+                    <div class="data__body">
+                        
+                        <div class="data__item">
+                            <div class="data__row dashboard_data_row">
+                                <div class="data__cell data__cell_xl">
+                                    <div class="data__main dashboard_data_main">
+                                        <div class="data__preview"><img src='img/user-1.jpg' style='border-radius:10px' /></div>
+                                        <div class="data__wrap">
+                                            <div class=" data__label">PN001265</div>
+                                            <div class="data__content" style='font-size:14px'><strong>Delta Token Promotion</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data__cell data__cell_lg  mobile-text-right">
+                                    <div class="data__label">Services Requested</div>
+                                    <div class="data__content"><strong>Website</strong></div>
+                                </div>
+                                <div class="data__cell data__cell_lg tab_hide mobile-hide">
+                                    <div class="data__label">Price</div>
+                                    <div class="data__content"><strong>$ 150 to $ 500</strong></div>
+                                </div>
+                                <div class="data__cell data__cell_lg tab_hide mobile-hide">
+                                    <div class="tag green" style='min-width: 214px;height:36px' ><a href='order-completed.html' style='color:#7CE7AC'>Completed</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data__item">
+                            <div class="data__row dashboard_data_row">
+                                <div class="data__cell data__cell_xl">
+                                    <div class="data__main dashboard_data_main">
+                                        <div class="data__preview"><img src='img/user-1.jpg' style='border-radius:10px' /></div>
+                                        <div class="data__wrap">
+                                            <div class=" data__label">PN001265</div>
+                                            <div class="data__content" style='font-size:14px'><strong>Delta Token Promotion</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data__cell data__cell_lg mobile-text-right">
+                                    <div class="data__label">Services Requested</div>
+                                    <div class="data__content"><strong>Website</strong></div>
+                                </div>
+                                <div class="data__cell data__cell_lg tab_hide mobile-hide">
+                                    <div class="data__label">Price</div>
+                                    <div class="data__content"><strong>$ 150 to $ 500</strong></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag gray"><a href='order-details.html' style='color:#8181A5'><i class='la la-bar-chart-o' style='margin-right:4px;'></i>View</a></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag yellow"><a href='#' style='color: #F4BE5E'><i class='la la-comment-o' style='margin-right:4px'></i>Chat</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data__item">
+                            <div class="data__row dashboard_data_row">
+                                <div class="data__cell data__cell_xl">
+                                    <div class="data__main dashboard_data_main">
+                                        <div class="data__preview"><img src='img/user-1.jpg' style='border-radius:10px' /></div>
+                                        <div class="data__wrap">
+                                            <div class=" data__label">PN001265</div>
+                                            <div class="data__content" style='font-size:14px'><strong>Delta Token Promotion</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data__cell data__cell_lg mobile-text-right">
+                                    <div class="data__label">Services Requested</div>
+                                    <div class="data__content"><strong>Website</strong></div>
+                                </div>
+                                <div class="data__cell data__cell_lg tab_hide mobile-hide">
+                                    <div class="data__label">Price</div>
+                                    <div class="data__content"><strong>$ 150 to $ 500</strong></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag gray"><a href='#' style='color:#8181A5'><i class='la la-bar-chart-o' style='margin-right:4px;'></i>View</a></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag yellow"><a href='#' style='color: #F4BE5E'><i class='la la-comment-o' style='margin-right:4px'></i>Chat</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data__item">
+                            <div class="data__row dashboard_data_row">
+                                <div class="data__cell data__cell_xl">
+                                    <div class="data__main dashboard_data_main">
+                                        <div class="data__preview"><img src='img/user-1.jpg' style='border-radius:10px' /></div>
+                                        <div class="data__wrap">
+                                            <div class=" data__label">PN001265</div>
+                                            <div class="data__content" style='font-size:14px'><strong>Delta Token Promotion</strong></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="data__cell data__cell_lg mobile-text-right">
+                                    <div class="data__label">Services Requested</div>
+                                    <div class="data__content"><strong>Website</strong></div>
+                                </div>
+                                <div class="data__cell data__cell_lg tab_hide mobile-hide">
+                                    <div class="data__label">Price</div>
+                                    <div class="data__content"><strong>$ 150 to $ 500</strong></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag gray"><a href='#' style='color:#8181A5'><i class='la la-bar-chart-o' style='margin-right:4px;'></i>View</a></div>
+                                </div>
+                                <div class="data__cell tab_hide mobile-hide">
+                                    <div class="tag yellow"><a href='#' style='color: #F4BE5E'><i class='la la-comment-o' style='margin-right:4px'></i>Chat</a></div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                        
+                      
+                      
+                      
+                      
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel__tab js-panel-tab" style="display: none">
+                <!-- data-->
+                <div class="data data_list">
+                  <div class="data__container">
+                    <div class="data__body">
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_lg">
+                              <div class="data__main">
+                              <div class="data__wrap">
+                                  <div class="data__label">Task Name</div>
+                                  <div class="data__content"><strong>Painting</strong></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="data__cell mobile-text-right">
+                              <div class="data__label">Price</div>
+                              <div class="data__content"><strong>$ 100</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Time Remaining</div>
+                              <div class="data__content"><strong>2d 2h</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Priority</div>
+                              <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Completed Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>15 Jan 2021</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Order Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>12 Apr 2021</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class='btn btn_light' style='height:35px !important; padding:0px 12px !important;'>In Progress</div>
+                              
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide" >
+                              <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Submit Work</Button>
+                          </div>
+                          <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                      </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Coding</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 300</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>3d 5h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #7ce7ac;'><i class='la la-arrow-up' style='color: #7ce7ac;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>2 Apr 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7;'>22 Apr 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='tag gray' >To do</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <div class='tag green' style='height:35px !important;padding:0px 41px !important' >View</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Designing</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 350</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>5d 10h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #F4BE5E;'><i class='la la-arrow-up' style='color: #F4BE5E;'></i>Medium</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>12 May 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>12 June 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                
+                            </div>
+                            <!-- <div class="data__cell data__cell_lg mobile-hide" >
+                                <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Pending</Button>
+                            </div> -->
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='tag yellow' style='background:#fdc748; color:#d99f16' >Pending</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Analysis</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 500</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>1d 15h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>5 Jun 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>12 May 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='btn btn_light' style='height:35px !important; padding:0px 12px !important;'>In Progress</div>
+                                
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Submit Work</Button>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel__tab js-panel-tab" style="display: none">
+                <div class="data data_list">
+                  <div class="data__container">
+                    <div class="data__body">
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_lg">
+                              <div class="data__main">
+                              <div class="data__wrap">
+                                  <div class="data__label">Task Name</div>
+                                  <div class="data__content"><strong>Funding</strong></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="data__cell mobile-text-right">
+                              <div class="data__label">Price</div>
+                              <div class="data__content"><strong>$ 300</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Time Remaining</div>
+                              <div class="data__content"><strong>5d 3h</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Priority</div>
+                              <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Completed Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>5 Jan 2020</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Order Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>12 Apr 2021</div>
+                          </div>
+                          
+                          <div class="data__cell data__cell_lg mobile-hide" >
+                              <Button class='tag green' style='height:35px !important; padding:0px 12px !important;' >View Work</Button>
+                          </div>
+                          <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                      </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Research</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 100</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>9d 2h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #7ce7ac;'><i class='la la-arrow-up' style='color: #7ce7ac;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>5 Dec 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7;'>5 Nov 2021</div>
+                            </div>
+                            
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <div class='tag green'  style='height:35px !important; padding:0px 12px !important;'  >View Work</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Analysis</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 150</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>3d 4h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>2 Mar 2019</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>28 Feb 2019</div>
+                            </div>
+                            
+                           
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='tag green'  style='height:35px !important; padding:0px 12px !important;'  >View Work</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Observation</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 750</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>13d 5h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>12 Apr 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>12 Apr 2021</div>
+                            </div>
+                            <!-- <div class="data__cell data__cell_lg mobile-hide">
+                              <div class='btn btn_light' style='height:35px !important; padding:0px 12px !important;'>In Progress</div>
+                            </div> -->
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <Button class='tag green' style='height:35px !important; padding:0px 12px !important;' >View Work</Button>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel__tab js-panel-tab" style="display: none">
+                <div class="data data_list">
+                  <div class="data__container">
+                    <div class="data__body">
+                      <div class="data__item">
+                        <div class="data__row">
+                          <div class="data__cell data__cell_lg">
+                              <div class="data__main">
+                              <div class="data__wrap">
+                                  <div class="data__label">Task Name</div>
+                                  <div class="data__content"><strong>Coding</strong></div>
+                              </div>
+                              </div>
+                          </div>
+                          <div class="data__cell mobile-text-right">
+                              <div class="data__label">Price</div>
+                              <div class="data__content"><strong>$ 350</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Time Remaining</div>
+                              <div class="data__content"><strong>14h 24h</strong></div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Priority</div>
+                              <div class="data__content" style='color: #F4BE5E;'><i class='la la-arrow-up' style='color: #F4BE5E;'></i>Medium</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Completed Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>14 Apr 2021</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class="data__label">Order Date</div>
+                              <div class="data__content" style='color: #bcc0c7'>11 Apr 2021</div>
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide">
+                              <div class='btn btn_light' style='height:35px !important; padding:0px 12px !important;'>In Progress</div>
+                              
+                          </div>
+                          <div class="data__cell data__cell_lg mobile-hide" >
+                              <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Submit Work</Button>
+                          </div>
+                          <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                      </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Painting</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 200</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>6d 2h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #7ce7ac;'><i class='la la-arrow-up' style='color: #7ce7ac;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>09 Apr 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7;'>1 Apr 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='tag gray' >To do</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <div class='tag green' style='height:35px !important;padding:0px 41px !important' >View</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Practice</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 550</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>7d 6h</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #F4BE5E;'><i class='la la-arrow-up' style='color: #F4BE5E;'></i>Medium</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>4 Sep 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>1 Sep 2021</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                
+                            </div>
+                            <!-- <div class="data__cell data__cell_lg mobile-hide" >
+                                <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Pending</Button>
+                            </div> -->
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='tag yellow' style='background:#fdc748; color:#d99f16' >Pending</div>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                      <div class="data__item orders_data_item">
+                        <div class="data__row">
+                            <div class="data__cell data__cell_lg">
+                                <div class="data__main">
+                                <div class="data__wrap">
+                                    <div class="data__label">Task Name</div>
+                                    <div class="data__content"><strong>Coding</strong></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="data__cell mobile-text-right">
+                                <div class="data__label">Price</div>
+                                <div class="data__content"><strong>$ 850</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Time Remaining</div>
+                                <div class="data__content"><strong>4d</strong></div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Priority</div>
+                                <div class="data__content" style='color: #6bde8f;'><i class='la la-arrow-up' style='color: #6bde8f;'></i>Low</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Completed Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>6 Oct 2015</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class="data__label">Order Date</div>
+                                <div class="data__content" style='color: #bcc0c7'>5 June 2015</div>
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide">
+                                <div class='btn btn_light' style='height:35px !important; padding:0px 12px !important;'>In Progress</div>
+                                
+                            </div>
+                            <div class="data__cell data__cell_lg mobile-hide" >
+                                <Button class='btn' style='height:35px !important; padding:0px 12px !important;' >Submit Work</Button>
+                            </div>
+                            <div class="data__cell data__cell_action mobile-hide"><button class="action action_stroke" style='border:0px'><a href='single-order.html' style='color:black'><i class='la la-eye'></i></a></button></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel__foot">
+              <div class="pager"><a class="pager__arrow action action_icon_before" href="#"><i class="la la-angle-left "></i>Prev</a>
+                <div class="pager__list"><a class="pager__link action" href="#">1</a><a class="pager__link action" href="#">2</a><a class="pager__link action active" href="#">3</a><a class="pager__link action" href="#">4</a><a class="pager__link action" href="#">5</a></div><a class="pager__arrow action action_icon_after" href="#">Next<i class="la la-angle-right "></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- modals-->
+    <!-- scripts-->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/datepicker.min.js"></script>
+    <script src="js/lib/datepicker.en.js"></script>
+    <script src="js/lib/select2.min.js"></script>
+    <script src="js/lib/wNumb.min.js"></script>
+    <script src="js/lib/nouislider.min.js"></script>
+    <script src="js/lib/apexcharts.min.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

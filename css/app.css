@@ -15376,7 +15376,6 @@ img {
 .addFundsDashboard {
   margin-right: 4px;
   height: 36px;
-  margin-bottom: 22px;
 }
 .view_all_block {
   display: flex;
@@ -15407,6 +15406,18 @@ img {
 }
 .dashboard_items_item {
   background: #fff;
+}
+.orders_title {
+  margin-left: 29px;
+  margin-bottom: 18px;
+}
+.orders_sub_header {
+  margin-top: -16px;
+  margin-bottom: 24px;
+  margin-left: 29px;
+}
+.dashboard_main_wallet_one {
+  margin-right: 10px;
 }
 /************ profile page css ********************/
 .profile_pic {
@@ -15439,7 +15450,7 @@ img {
   display: flex;
   margin: auto;
   margin-top: 10px;
-  height: 36px;
+  height: 40px;
 }
 .profile_sidebar_container .sidebar__inner {
   margin-bottom: -21px;
@@ -15486,8 +15497,7 @@ img {
   padding: 0px 16px;
 }
 .update_profile_info {
-  height: 36px;
-  margin-bottom: 37px;
+  height: 40px;
 }
 .security_block_title {
   font-size: 16px;
@@ -15508,7 +15518,7 @@ img {
   margin-top: 11px;
 }
 .update_wallet_button {
-  height: 36px;
+  height: 40px;
   margin-top: 23px;
 }
 .wallet_options {
@@ -15535,6 +15545,56 @@ img {
 .profile_location {
   display: flex;
   justify-content: space-between;
+}
+.profilehead {
+  height: max-content;
+  background: #fff;
+}
+.profilehead .panel__head {
+  margin-bottom: 4px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.profile_maininfo .panel__title {
+  margin-bottom: 10px;
+}
+.profilehead .content__person {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.my_profile .content__preview {
+  box-shadow: none;
+}
+.content__person .content__preview {
+  width: 104px;
+  height: 104px;
+  margin: 0 auto 8px;
+}
+.content__person .content__title {
+  margin: 0;
+}
+.profilehead .content__person .content__text {
+  margin-bottom: 8px;
+  text-align: left;
+  margin-top: 3px;
+}
+.my_profile .content__pic {
+  border-radius: 50px;
+}
+.action-group .action {
+  margin: 0 6px 6px 0;
+}
+.action-group {
+  display: flex;
+  margin: 0 -6px -6px 0;
+  flex-wrap: wrap;
+}
+.profile_sub_header {
+  margin-bottom: 20px;
 }
 /*********************** profile page css ************************/
 
@@ -15770,8 +15830,6 @@ img {
   border: 0px;
   margin-top: 8px;
   margin-bottom: 40px;
-  background: #e7ebf2;
-  color: #949ca7;
 }
 .order_icons .overview__preview {
   margin-right: 10px;
@@ -15814,12 +15872,11 @@ img {
   margin-bottom: 17px;
 }
 .orders_waiting {
-  background-color: #ffe03f;
   width: 100%;
   height: 36px;
   margin-bottom: 31px;
   border: none;
-  color: black;
+  color: white;
 }
 .convsersation_widget {
   margin-top: 15px;
@@ -15885,7 +15942,7 @@ img {
   display: flex;
   justify-content: flex-start;
   margin-left: 63px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 .dashboard_orders_status_one,
 .dashboard_orders_status_two,
@@ -16178,6 +16235,14 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+  .profilehead {
+    padding: 24px !important;
+    background: #fff !important;
+  }
+  .profiledetails_tabs {
+    padding: 24px !important;
+    background: #fff !important;
+  }
   .orders_profile_info_section {
     padding: 7px 0px 16px !important;
   }
@@ -16335,10 +16400,10 @@ img {
     height: 36px;
     margin: 0 3px;
     padding: 0 9px;
-    background: none;
+    background: #eff2fe;
     border-color: transparent;
     border-radius: 6px;
-    color: #8181a5;
+    color: #5e81f4;
     flex: 1;
   }
   .btn-group_tabs .btn.active {

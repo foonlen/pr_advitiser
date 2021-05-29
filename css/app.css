@@ -11837,7 +11837,6 @@ img {
   background: white;
   border-right: 1px solid #f0f0f3;
   flex-direction: column;
-  border-radius: 13px;
 }
 
 .nav__list {
@@ -11962,12 +11961,11 @@ img {
 .sidebar {
   display: flex;
   position: fixed;
-  top: 25px;
-  left: 12px;
-  height: 93%;
+  top: 0;
+  left: 0;
+  height: 100%;
   background: white;
   z-index: 59;
-  border-radius: 13px;
 }
 
 .sidebar__nav {
@@ -12410,7 +12408,7 @@ img {
 }
 
 .container.extended {
-  padding-left: 84px;
+  padding-left: 218px;
 }
 
 .empty {
@@ -15974,7 +15972,7 @@ img {
     border-radius: 4px 0 0 4px;
   }
   .container.extended {
-    padding-left: 232px;
+    padding-left: 242px;
   }
 }
 
@@ -16013,7 +16011,7 @@ img {
     display: block;
   }
   .container {
-    padding-left: 232px;
+    padding-left: 84px;
   }
 }
 

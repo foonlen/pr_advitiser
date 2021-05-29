@@ -10714,7 +10714,8 @@ html {
 
 body {
   /* font-family: "Lato", sans-serif; */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Titillium Web", sans-serif;
   font-size: 14px;
   color: #1c1d21;
   line-height: 1.5;
@@ -15961,7 +15962,7 @@ img {
 .dashboard_orders_status_one,
 .dashboard_orders_status_two,
 .dashboard_orders_status_three {
-  margin-right: 98px;
+  margin-right: 10px;
   display: flex;
 }
 .dashboard_orders_status .items__online {
@@ -15972,6 +15973,15 @@ img {
   margin-right: 13px;
   width: 18px;
   height: 18px;
+}
+.advertiserOrderFooter {
+  margin-top: 59px !important;
+}
+.container_title_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 1340px) {
@@ -16249,6 +16259,16 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
+  .advertiserOrderFooter {
+    margin-top: 31px !important;
+  }
+  .advertiserOrdersPanel {
+    padding: 24px !important;
+    background: #fff !important;
+  }
+  .orders_title {
+    margin-top: 20px !important;
+  }
   .profilehead {
     padding: 24px !important;
     background: #fff !important;
@@ -16376,9 +16396,9 @@ img {
     background: white !important;
     padding: 24px !important;
   }
-  .data__item {
+  /* .data__item {
     border: 1px solid #f0f0f3 !important;
-  }
+  } */
   .nav__title {
     display: none;
   }
@@ -17355,6 +17375,14 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
+  .dashboard_orders_status {
+    display: block !important;
+  }
+  .dashboard_orders_status_one,
+  .dashboard_orders_status_two,
+  .dashboard_orders_status_three {
+    margin-top: 10px;
+  }
   .overviewicons {
     display: flex !important;
   }

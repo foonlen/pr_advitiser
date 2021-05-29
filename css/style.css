@@ -357,13 +357,13 @@
   display: block !important;
 }
 .dropbtn {
-  color: white;
   padding: 9px 14px 9px 14px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   border-radius: 8px;
-  background: #5e81f4;
+  background: rgba(94, 129, 244, 0.1);
+  color: #5e81f4;
 }
 .dropdown-content {
   display: none;
@@ -378,7 +378,6 @@
   margin-left: -10px;
 }
 .dropdown-content a {
-  color: white;
   padding: 7px 30px;
   text-decoration: none;
   display: block;

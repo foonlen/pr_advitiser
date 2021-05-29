@@ -15262,7 +15262,7 @@ img {
   display: flex;
   margin: auto;
   justify-content: center;
-  padding: 27px 0px 27px 33px;
+  padding: 27px;
 }
 .qr_code_address {
   color: #8181a5;
@@ -16253,9 +16253,7 @@ img {
     padding: 24px !important;
     background: #fff !important;
   }
-  .profiledetails_tabs {
-    padding: 24px !important;
-  }
+
   .orders_profile_info_section {
     padding: 7px 0px 16px !important;
   }

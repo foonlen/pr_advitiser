@@ -11932,7 +11932,7 @@ img {
   min-height: 48px;
   padding: 5px 5px 5px 15px;
   border-radius: 0 4px 4px 0;
-
+  font-weight: 600;
   align-items: center;
   flex: 1 1 auto;
 }
@@ -15134,6 +15134,7 @@ img {
 }
 .back_option {
   color: #5e81f4;
+  font-weight: 600;
 }
 .back_option_icon {
   margin-top: 10px;
